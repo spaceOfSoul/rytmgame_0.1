@@ -19,9 +19,9 @@ public class Judgement : MonoBehaviour
     float currentNoteTime3;
     float currentNoteTime4;
 
-    float greatRate = 1764f;//40ms
-    float goodRate = 3528f;//80ms
-    float missRate = 7762f;
+    float greatRate = 2205f;//50ms
+    float goodRate = 4410f;//100ms
+    float missRate = 8820f;
 
     int laneNum;
 

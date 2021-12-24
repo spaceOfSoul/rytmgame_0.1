@@ -44,46 +44,46 @@ public class inputKey : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.C))
+        if (Input.GetKeyDown(KeyCode.D))
         {
             d.gameObject.SetActive(true);
             judgement.JudgeNote(1);
            // hSound.hit();
         }
-        if (Input.GetKeyUp(KeyCode.C))
+        if (Input.GetKeyUp(KeyCode.D))
         {
             d.gameObject.SetActive(false);
         }
         
-        if (Input.GetKeyDown(KeyCode.V))
+        if (Input.GetKeyDown(KeyCode.F))
         {
             f.gameObject.SetActive(true);
             judgement.JudgeNote(2);
             //hSound.hit();
         }
-        if (Input.GetKeyUp(KeyCode.V))
+        if (Input.GetKeyUp(KeyCode.F))
         {
             f.gameObject.SetActive(false);
         }
         
-        if (Input.GetKeyDown(KeyCode.N))
+        if (Input.GetKeyDown(KeyCode.J))
         {
             j.gameObject.SetActive(true);
             judgement.JudgeNote(3);
             //hSound.hit();
         }
-        if (Input.GetKeyUp(KeyCode.N))
+        if (Input.GetKeyUp(KeyCode.J))
         {
             j.gameObject.SetActive(false);
         }
         
-        if (Input.GetKeyDown(KeyCode.M))
+        if (Input.GetKeyDown(KeyCode.K))
         {
             k.gameObject.SetActive(true);
             judgement.JudgeNote(4);
            // hSound.hit();
         }
-        if (Input.GetKeyUp(KeyCode.M))
+        if (Input.GetKeyUp(KeyCode.K))
         {
             k.gameObject.SetActive(false);
         }
